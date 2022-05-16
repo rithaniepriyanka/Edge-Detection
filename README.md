@@ -47,7 +47,7 @@ import matplotlib.pyplot as plt
 
 # Load the image, Convert to grayscale and remove noise
 ```
-image1=cv2.imread ('simp.jpg') 
+image1=cv2.imread ('me.jpg') 
 gray_image = cv2.cvtColor(image1,cv2.COLOR_BGR2GRAY)
 
 plt.title('GRAY IMAGE')
